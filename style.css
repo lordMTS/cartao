@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(90deg,black 1%, red 99%, black 100%);
+    color: white;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+header{
+    align-items: center;
+    text-align: center;
+}
+
+header img{
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+}
+
+main{
+    margin-top: 100px;
+    gap: 10px;
+    display: flex;
+}
+.lado_esquerdo img{
+    width: 150px;
+    height: 500px;
+    box-shadow: 1px 5px 2px blue;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.centro{
+    text-align: center;
+    margin-right: 25px;
+}
+
+.carol{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.lado_direito{
+    text-align:  end;
+    margin-right: 10px;
+}
+
+.lado_direito img{
+    width: auto;
+    height: 200px;
+    box-shadow: 3px 1px 3px blue;
+    border-radius: 10px;
+}
+
